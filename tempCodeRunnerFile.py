@@ -1,0 +1,1 @@
+os.rename(f"data/name{i+1}")
