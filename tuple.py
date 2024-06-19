@@ -21,4 +21,11 @@ print(name)
 print(age)
 print(last)
 
+tup=(1,2,3,4,5,6)
+i1,*i2,i3=tup
+print("i1= ",i1)
+print("i2= ",i2) # i2 makes a list of all the items between i1 and i2 and stores it
+print("i3= ",i3)
+
+
 

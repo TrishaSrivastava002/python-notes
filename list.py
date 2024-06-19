@@ -9,8 +9,8 @@ b= [2,"tri", 8.97543,'a',76,90] # can create list with different data types
 print("b\n",b)
 print(b[1:4])
 print(b[-5:-3])
-print(b[::2])
-print(b[:5:2])
+print("b[::2] is",b[::2])
+print(b[1:5:2])
 c = [4,2,6,1,5,8]
 print("c\n")
 c.sort()

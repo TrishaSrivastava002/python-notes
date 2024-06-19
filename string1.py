@@ -1,13 +1,13 @@
 # string is immutable
 t = "h        trisha srivastAva is a girl .\n But  \'french \\trish'a a \t dude            "
  # \n for next line and \t for a tab \' to print a ' and \\ to print \
-
+t1='                      str                '
 #  ***********************   string is immutable   **************************
 
 print(t[1])
 print(t[1:5]) #this does not include the second index
 print(t[::3]) # starts with 0 and jumps 3 spaces
-
+print(t1.strip()) # removes extra space
 # ^^^^^^^^^^^^^^^^^^^^IMPORTANT^^^^^^^^^^^^^^^^^^^
 
 print(t[::-1]) #helps in reversing the string

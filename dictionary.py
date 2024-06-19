@@ -48,3 +48,7 @@ d2=d.copy()
 d2["tish"]="Langdon"
 print(d2)
 print(d)
+
+tup=(8,7)
+mydict={tup:15} # tuples can also be included in dictionaries while list cannot be used as they are not hashable
+print("mydict",mydict)
